@@ -34,26 +34,27 @@ The backend is built using **Python 3.12**, **TensorFlow**, and **FastAPI**.
 ```bash
 cd MeineAPIundML
 ```
+> Create and activate the virtual environment using Python 3.12.0:
 
-2. Activate the virtual environment:
-
-### For **Bash** or **Zsh** (Linux/macOS):
-```bash
+For Bash or Zsh (Linux/macOS):
+```
+python3.12 -m venv .venv
 source .venv/bin/activate
 ```
 
-### For **CMD** (Windows Command Prompt):
-```cmd
+For CMD (Windows Command Prompt):
+```
+python3.12 -m venv .venv
 .venv\Scripts\activate.bat
 ```
 
-### For **PowerShell** (Windows):
-```powershell
+For PowerShell (Windows):
+```
+python3.12 -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
 > If you're using WSL or Git Bash on Windows, use the Bash/Zsh version.
-
 
 3. Install dependencies:
 ```bash
